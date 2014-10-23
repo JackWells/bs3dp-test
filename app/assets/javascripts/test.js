@@ -3,6 +3,10 @@
 // You can use CoffeeScript in this file: http://coffeescript.org/
 $(function() {
   $('#datetimepicker').datetimepicker({
-    pickTime: false
-  });
+  pickTime: false,
+  defaultDate: "10/25/2014",
+  disabledDates: [
+      "10/27/2014 00:53",
+      "10/28/2014 00:53"
+  ]});
 });
